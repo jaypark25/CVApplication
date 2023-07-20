@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Inter:wght@500&family=Libre+Bodoni:wght@400;500;600;700&display=swap');
+
+#paper { 
+    width : 40vw;
+    height : calc(40vw * 1.14);
+    background-color : white;
+    flex-grow : 0;
+    display : flex;
+    flex-direction : column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#backGround {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 50vw;
+    height : auto;
+    
+
+}
+
+#pageDivider {
+    width : 90%;
+    height : 1px;
+    background-color : black;
+    margin : 15px 0px;
+    align-self : center;
+}
+
+#header {
+    width : 100%;
+    display : flex;
+    flex-direction : column;
+    justify-self : flex-start;
+    margin-left : 5%;
+    margin-top : 5%;
+}
+
+h1, h2, h3, p {
+    color : black;
+    font-family: 'Libre Bodoni', serif;
+    margin : 0;
+}
+
+.headerText {
+    font-size : 100%;
+    font-weight : 400;
+}
+#name {
+    font-size : 200%;
+    font-weight : 4500;
+}
+
+
+#uniName {
+    font-size : 150%;
+    margin-left : 5%;
+}
+
+
+#educationHistory {
+    width : 100%;
+}
+
+#schoolInfo {
+    display : flex;
+    width : 100%;
+    justify-content : space-between;
+}
+
+#gradDate {
+    align-self : flex-end;
+    margin-right : 5%;
+}
+
+#displayDescription {
+    font-size : 100%;
+    font-weight : 200;
+    width : 90%;
+    height : 600%;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : 'wrap';
+    margin-left : 5%;
+    border : none;
+    resize : none;
+    font-family: 'Libre Bodoni', serif;
+    
+}
